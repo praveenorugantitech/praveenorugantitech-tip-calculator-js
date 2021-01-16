@@ -1,11 +1,6 @@
 body {
-  font-family: Roboto;
-  background: #8E0E00;
-  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #8E0E00, #1F1C18);
-  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #8E0E00, #1F1C18);
-  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family: 'poppins', sans-serif;
+  background-color: #131921;
 }
 
 #container {
@@ -72,8 +67,6 @@ input {
 }
 
 #serviceQual {
-  padding: 13px 13px 20px 20px;
-  margin-left: 20px;
   font-size: 25px;
 }
 
@@ -82,17 +75,18 @@ button {
   font-weight: bold;
   display: block;
   margin: 30px auto;
-  background: #AD133A;
+  background: lightblue;
   border-radius: 5px;
   width: 200px;
   height: 50px;
   font-size: 17px;
-  color: white;
+  color: black;
 }
 
 button:hover {
-  background: #4c2827;
+  background: black;
   border-bottom-color: #111;
+  color:white;
 }
 
 button:active {
